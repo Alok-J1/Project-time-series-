@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 print(df.head())
 import matplotlib.pyplot as plt 
 import pandas as pd 
@@ -34,3 +35,10 @@ plt.tight_layout()
 plt.show()
 
 
+=======
+print(df.head());
+import matplotlib.pyplot as plt ;
+import pandas as pd ;
+df = pd.read_excel("C:/Users/manoj/Downloads/LTOTALNSA.xlsx", sheet_name="Monthly");
+print(df.columns);
+>>>>>>> dd30823 (Add vehicle sales time series analysis)
